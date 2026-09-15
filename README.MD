@@ -4,7 +4,7 @@
 
 A simple web-based Language Translation Tool developed using Python and Flask.
 
-The application allows users to enter text, select a source language and target language, and translate the text using Google Translator through the Deep Translator library.
+The application allows users to enter text, select a source language and target language, and translate the text using MyMemory Translation API.
 
 ## Features
 
@@ -15,6 +15,7 @@ The application allows users to enter text, select a source language and target 
 - Display translated text
 - Copy translated text
 - Simple and user-friendly interface
+- Responsive design
 
 ## Technologies Used
 
@@ -23,7 +24,8 @@ The application allows users to enter text, select a source language and target 
 - HTML
 - CSS
 - JavaScript
-- Deep Translator
+- Requests
+- MyMemory Translation API
 
 ## Supported Languages
 
@@ -41,3 +43,20 @@ The application allows users to enter text, select a source language and target 
 
 ```bash
 pip install -r requirements.txt
+Run the application:
+python app.py
+Open the browser and visit:
+http://127.0.0.1:5000
+Project Structure
+LanguageTranslationTool
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+└── templates
+    └── index.html
+API Used
+This project uses the MyMemory Translation API to perform text translation between supported languages.
+Internship
+This project is developed as part of the CodeAlpha Artificial Intelligence Internship.
